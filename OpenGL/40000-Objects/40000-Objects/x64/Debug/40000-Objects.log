@@ -1,2 +1,17 @@
 ﻿  main.cpp
+c:\users\marcu\onedrive\desktop\school\spring 2020\graphics\webgl-vs.-opengl\opengl\40000-objects\40000-objects\main.cpp(19): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\marcu\onedrive\desktop\school\spring 2020\graphics\webgl-vs.-opengl\opengl\40000-objects\40000-objects\main.cpp(25): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\marcu\onedrive\desktop\school\spring 2020\graphics\webgl-vs.-opengl\opengl\40000-objects\40000-objects\main.cpp(45): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\marcu\onedrive\desktop\school\spring 2020\graphics\webgl-vs.-opengl\opengl\40000-objects\40000-objects\main.cpp(112): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\marcu\onedrive\desktop\school\spring 2020\graphics\webgl-vs.-opengl\opengl\40000-objects\40000-objects\main.cpp(155): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\users\marcu\onedrive\desktop\school\spring 2020\graphics\webgl-vs.-opengl\opengl\40000-objects\40000-objects\main.cpp(166): warning C4244: '=': conversion from 'int' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+c:\users\marcu\onedrive\desktop\school\spring 2020\graphics\webgl-vs.-opengl\opengl\40000-objects\40000-objects\main.cpp(187): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\marcu\onedrive\desktop\school\spring 2020\graphics\webgl-vs.-opengl\opengl\40000-objects\40000-objects\main.cpp(189): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\marcu\onedrive\desktop\school\spring 2020\graphics\webgl-vs.-opengl\opengl\40000-objects\40000-objects\main.cpp(191): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\marcu\onedrive\desktop\school\spring 2020\graphics\webgl-vs.-opengl\opengl\40000-objects\40000-objects\main.cpp(197): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\marcu\onedrive\desktop\school\spring 2020\graphics\webgl-vs.-opengl\opengl\40000-objects\40000-objects\main.cpp(200): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   40000-Objects.vcxproj -> C:\Users\marcu\OneDrive\Desktop\School\Spring 2020\Graphics\WebGL-vs.-OpenGL\OpenGL\40000-Objects\x64\Debug\40000-Objects.exe

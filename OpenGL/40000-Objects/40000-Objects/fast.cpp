@@ -1,3 +1,4 @@
+#include "fast.h"
 #include <vector>
 #include <math.h>
 # define PI           3.14159265358979323846  /* pi */
@@ -1432,7 +1433,7 @@ vector<float> tdl_fast_matrix4_axisRotate(vector<float>m, vector<float>axis, flo
  *     three entries specifying the factor by which to scale in each dimension.
  * @return {!tdl_fast_Matrix4} The scaling matrix.
  */
-vector<float> tdl_fast_matrix4_scaling(vector<float> dst, v) {
+vector<float> tdl_fast_matrix4_scaling(vector<float> dst, vector<float> v) {
 	dst[0] = v[0];
 	dst[1] = 0;
 	dst[2] = 0;
