@@ -148,6 +148,7 @@ void init()
 	}
 
 	//glViewport(10, 10, glutGet(GLUT_WINDOW_WIDTH), glutGet(GLUT_WINDOW_HEIGHT));
+	gluLookAt(0, 0, -50, 0, 0, 0, 0, 1, 0);
 }
 
 
@@ -168,10 +169,10 @@ void display(void)
 
 	//glutSolidSphere(radius, 20, 20);
 
-	float x = -3.0;
-	float y = -3.0;
-	float z = -3.0;
-	glTranslatef(x, y, z);
+	//float x = -3.0;
+	//float y = -3.0;
+	//float z = -3.0;
+	//glTranslatef(x, y, z);
 
 
 
@@ -190,6 +191,28 @@ void display(void)
 		}
 		glTranslatef(0, -(34 * .17), .17);
 	}
+	//glColor3f(colors[2][0], colors[2][1], colors[2][2]);
+	//glBegin(GL_POLYGON);
+	//glVertex3f(-1.0, 1.0, 0.0);
+	//glVertex3f(1.0, 1.0, 0.0);
+	//glVertex3f(1.0, -1.0, 0.0);
+	//glVertex3f(-1.0, -1.0, 0.0);
+	//glEnd();
+	//glBegin(GL_POLYGON);
+
+	//glVertex3f(-1.0, 1.0, -1.0);
+	//glVertex3f(1.0, 1.0, -1.0);
+	//glVertex3f(1.0, -1.0, -1.0);
+	//glVertex3f(-1.0, -1.0, -1.0);
+	//glEnd();
+	//glBegin(GL_POLYGON);
+	//glVertex3f(-1.0, 1.0, 0.0);
+	//glVertex3f(-1.0, 1.0, -1.0);
+	//glVertex3f(1.0, 1.0, -1.0);
+	//glVertex3f(1.0, 1.0, 0.0);
+	//glEnd();
+	
+
 
 
 
@@ -207,8 +230,8 @@ void display(void)
 
 	// look at mass
 	glLoadIdentity();
-	//gluLookAt(0, 2, 19, 0, 0, 0, 0, 1, 0);
 	gluLookAt(eyePosition[0], eyePosition[1], eyePosition[2], 0, 0, 0, 0, 1, 0);
+	//gluLookAt(0, 0, -50, 0, 0, 0, 0, 1, 0);
 
 	// breaks without flush
 	glFlush();
